@@ -69,3 +69,11 @@ fmt:
 # Vet code
 vet:
 	go vet ./... 
+
+# Run integration tests
+test-integration:
+	go test ./test/integration/ -v -timeout 10m
+
+# Run all tests
+test-all:
+	go test ./... -v -timeout 10m 

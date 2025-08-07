@@ -269,13 +269,3 @@ make test-integration
 # Run with coverage
 make test-coverage
 ```
-
-## 📈 Production Deployment
-
-### Environment Variables
-```bash
-DB_HOST=your-postgres-host
-DB_PASSWORD=your-secure-password
-RABBITMQ_HOST=your-rabbitmq-host
-JWT_SECRET=your-jwt-secret
-```
